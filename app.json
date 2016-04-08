@@ -1,0 +1,20 @@
+{
+  "name": "Go Fly",
+  "description": "On-the-fly image resizing using Go and VIPS",
+  "repository": "https://github.com/pinglamb/go-fly",
+  "keywords": ["go", "vips", "image", "resize", "on-the-fly"],
+  "env": {
+    "CGO_CFLAGS": {
+      "description": "Compile flag for building go/vips lib",
+      "value": "-I/app/vendor/vips/include"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/pinglamb/heroku-buildpack-vips#master"
+    },
+    {
+      "url": "https://github.com/pinglamb/heroku-buildpack-go#master"
+    }
+  ]
+}
