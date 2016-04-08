@@ -1,0 +1,11 @@
+{
+	"ImportPath": "github.com/pinglamb/go-fly",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v62",
+	"Deps": [
+		{
+			"ImportPath": "github.com/daddye/vips",
+			"Rev": "851fa34f0357f4cd0bf989ee37091c6bf98e7ec4"
+		}
+	]
+}
